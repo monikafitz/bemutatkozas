@@ -1,0 +1,96 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* ==== BASE STYLES ==== */
+
+.content {
+  font-family: 'Open Sans';
+  font-style:bold;
+  font-size:1.25rem;
+}
+
+h1,
+h2 {
+  font-family: 'Proza Libre';
+  }
+
+h1 {font-size:1.56rem;
+  font-style:normal;
+}
+
+h2 {font-size:1.25rem;}
+
+/* Pozicionálás */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.profile-card {
+  width: 95vw;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .links {text-align:center;}
+
+.content {width:80vw;
+margin:0 12vw 0 6vw;
+  padding: 5vh 0;
+}
+
+.head {width:50vw;
+margin:8vh 43vw 0 6vw;}
+
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 30%;
+}
+
+.head, {
+  margin-bottom: 10vh;
+  min-width:800px;
+}
+
+.name-headline {padding-top:2vh;}
+
+.about {
+  padding-bottom: 10vh;
+}
+
+body {
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+img {
+  padding: 3px;
+  background-color: #4d3319;
+  transition: all 0.5s ease-in-out;}
+
+img:hover {
+  transform: scale(1.1);}
+
+.profile-image, .name-headline {background-color: rgba(255, 255, 255, .2);
+min-width:330px;}
+
+.about, .links {background-color: rgba(255, 255, 255, .2);
+min-width:500px;}
