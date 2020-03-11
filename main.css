@@ -30,9 +30,9 @@ h2 {font-size:1.25rem;}
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height:100vh;
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .profile-card {
@@ -51,9 +51,11 @@ li {
 
 .head, .links {text-align:center;}
 
+
+
 .content {width:80vw;
-margin:0 12vw 0 6vw;
-  padding: 5vh 0;
+margin:5vw 12vw 0 6vw;
+  padding: 2vh 2vh;
 }
 
 .head {width:50vw;
@@ -74,12 +76,9 @@ img {
 
 .about {
   padding-bottom: 10vh;
+  text-align:justify;
 }
 
-body {
-  background: url('assets/background.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
 
 img {
   padding: 3px;
@@ -89,8 +88,9 @@ img {
 img:hover {
   transform: scale(1.1);}
 
+
 .profile-image, .name-headline {background-color: rgba(255, 255, 255, .2);
 min-width:330px;}
 
-.about, .links {background-color: rgba(255, 255, 255, .2);
+.content{background-color: rgba(255, 255, 255, .2);
 min-width:500px;}
