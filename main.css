@@ -51,15 +51,14 @@ li {
 
 .head, .links {text-align:center;}
 
-
-
 .content {width:80vw;
-margin:5vw 12vw 0 6vw;
+margin:5vw auto 0 6vw;
   padding: 2vh 2vh;
 }
 
-.head {width:50vw;
-margin:8vh 43vw 0 6vw;}
+.head {width:60vw;
+margin:8vh auto 0 6vw;
+padding:0 2vh;}
 
 img {
   width: 160px;
@@ -69,16 +68,14 @@ img {
 
 .head, {
   margin-bottom: 10vh;
-  min-width:800px;
 }
 
 .name-headline {padding-top:2vh;}
 
 .about {
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
   text-align:justify;
 }
-
 
 img {
   padding: 3px;
@@ -88,9 +85,12 @@ img {
 img:hover {
   transform: scale(1.1);}
 
+.head {background-color: rgba(255, 255, 255, .2);
+min-width:340px;}
 
-.profile-image, .name-headline {background-color: rgba(255, 255, 255, .2);
-min-width:330px;}
+.content {background-color: rgba(255, 255, 255, .2);
+min-width:340px;}
 
-.content{background-color: rgba(255, 255, 255, .2);
-min-width:500px;}
+@media (min-width:768px){.head {max-width:400px;}}
+
+@media (min-width:768px){.content {max-width:850px;}}
